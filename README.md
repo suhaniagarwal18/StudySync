@@ -239,22 +239,7 @@ StudySync/
 
 ---
 
-## 🎓 Academic Viva Cheat Sheet
 
-When demonstrating this project to university faculty, highlight these key topics:
-
-1. **Why Abstract Class for `User`?**  
-   Both `Student` and `Admin` share state (`userId`, `name`, `email`, `passwordHash`) and common authentication logic, while delegating routing polymorphically via `getDashboardPath()`.
-2. **How is the Matching Algorithm Implemented?**  
-   Using Java Collections set operations (`Set.retainAll()` / set intersection) between `A.neededSkills` and `B.knownSkills`, sorted using `Comparable<MatchResult>`.
-3. **How is SQL Injection Prevented?**  
-   Every single SQL query uses `PreparedStatement` with parameterized placeholders (`?`). No SQL strings are ever concatenated.
-4. **How are Multi-Table Operations Kept Atomic?**  
-   In `StudySessionDAO`, `conn.setAutoCommit(false)` coordinates multiple inserts and updates, committing only on success and executing `conn.rollback()` on failure.
-5. **How is File Upload Security Handled?**  
-   Three layers: Magic Byte inspection of binary headers, UUID renaming to prevent overwrite attacks, and path normalization to block directory traversal attacks (`../../`).
-
----
 
 ## ⚖️ License & Attribution
 Developed for academic coursework in **Java Programming (Semester 5 B.Tech Computer Science & Engineering)**.  
