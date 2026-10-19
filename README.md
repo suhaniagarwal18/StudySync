@@ -14,13 +14,6 @@
 
 ---
 
-## 📑 Quick Links
-- **[Academic Java Concepts & Viva Guide](docs/JAVA_CONCEPTS.md)** — OOP mapping, architectural patterns, and 15 viva Q&As.
-- **[Testing & Verification Report](docs/TESTING.md)** — Results for 37 automated JUnit tests and 19 live HTTP scenarios.
-- **[Database Schema](database/schema.sql)** & **[Sample Demonstration Data](database/sample_data.sql)**.
-
----
-
 ## 🏛️ System Architecture
 
 StudySync follows an industry-standard **Model-View-Controller (MVC)** layered architecture with separation of concerns:
