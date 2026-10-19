@@ -1,0 +1,15 @@
+StudySync: Data Structures and Algorithms Quick Reference Guide
+================================================================
+
+1. Time Complexities Overview:
+   - Array / ArrayList: Access O(1), Search O(n), Insertion/Deletion O(n)
+   - LinkedList: Access O(n), Prepend O(1), Insertion/Deletion O(1) with pointer
+   - HashMap / HashSet: Average Search/Insert/Delete O(1), Worst Case O(n)
+   - TreeMap / TreeSet: Search/Insert/Delete O(log n) (Red-Black Tree)
+
+2. Sorting Algorithms:
+   - MergeSort: O(n log n) stable divide-and-conquer
+   - QuickSort: O(n log n) average, O(n^2) worst case
+   - HeapSort: O(n log n) in-place comparison sort
+
+Prepared for B.Tech CS Semester 5 Peer Study Group.

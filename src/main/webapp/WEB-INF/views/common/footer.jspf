@@ -1,0 +1,14 @@
+</main>
+
+<footer class="footer">
+    <div class="footer-container">
+        <p><strong>StudySync</strong> &copy; 2026 – Peer Study Buddy & Notes Exchange System</p>
+        <p style="margin-top: 0.35rem; font-size: 0.8rem; color: #94a3b8;">
+            Built with Java 17, Jakarta Servlets 6.0, JSP 3.1, JSTL 3.0, JDBC & MySQL 8.
+        </p>
+    </div>
+</footer>
+
+<script src="<c:url value='/js/app.js' />"></script>
+</body>
+</html>
