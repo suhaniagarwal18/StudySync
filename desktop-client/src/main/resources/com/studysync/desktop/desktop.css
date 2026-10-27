@@ -1,0 +1,18 @@
+.toolbar {
+    -fx-background-color: #edf2f7;
+}
+
+.status-bar {
+    -fx-background-color: #e2e8f0;
+    -fx-font-size: 12px;
+}
+
+.error-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.error-pane {
+    -fx-background-color: white;
+    -fx-padding: 32px;
+}
